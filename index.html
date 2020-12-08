@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolas Mendes; Jordan Mendonça; Samuel Silva">
+    <title>Exercício 6 da Lista3.1_CS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="titulo">Exercício 6 da Lista3.1_CS</h1>
+    <div class="pagina">
+        <div class="descricao">
+            <label class="titulo_descricao">Descrição do Exercício:</label>
+            <p>Para um cliente de um determinado banco, existem 3 informações que devem ser lidas: o saldo bancário
+                inicial (saldo), valor a ser depositado (crédito) e cheque a ser descontado (débito). Calcular o novo
+                saldo e, de posse do mesmo, imprimir uma mensagem informando se o saldo atual é “positivo”. Imprimir,
+                também, o referido saldo.</p>
+
+        </div>
+        <div class="solucao">
+            <label class="titulo_solucao">Solução:</label><br>
+            Digite o saldo bancário inicial: <input type="number" id="saldo_inicial"><br>
+            Digite o valor a ser depositado: <input type="number" id="valor_depositado"><br>
+            Digite o cheque a ser descontado: <input type="number" id="cheque_descontado"><br><br>
+            <button onclick="calcular()">Calcular novo saldo</button>
+            <div id="resposta"></div>
+        </div>
+        <div id="cod_fonte">
+            <a href="codfonte.html"><button onclick="mostar_cod()">Mostrar código fonte</button></a>
+            <a href="Lista3.1_CS.pdf" target="_blank"><button>Acessar PDF completo da Lista</button></a>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
