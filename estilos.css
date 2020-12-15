@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+.pagina {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Ubuntu';
+}
+
+.titulo {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.titulo_descricao {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.descricao {
+    margin-top: 40px;
+    border-style: outset;
+    border-color: #b1b6bd;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.titulo_descricao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.solucao {
+    margin-top: 40px;
+    border-style: outset;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-color: #b1b6bd;
+}
+
+.titulo_solucao {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#cod_fonte {
+    text-align: center;
+    margin-top: 11px;
+}
+
+button {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #327edb;
+    color: white;
+    border-radius: 8px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#resposta {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.codigo {
+    width: 930px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-style: outset;
+    border-color: #b1b6bd;
+    border-radius: 7px;
+    text-align: left;
+}
+
+#botaodownload:hover {
+    cursor: pointer;
+}
+
+#botaodownload {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    font-family: 'Ubuntu';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+    border-radius: 8px;
+    background-color: #327edb;
+    color: white;
+    
+}
+
+#botaodownload:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+a{
+    text-decoration: none;
+}
